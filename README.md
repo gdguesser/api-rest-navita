@@ -36,12 +36,14 @@ GET usuarios – Listar os usuários
 
 POST usuarios – Criar um usuário
 
-    Exemplo: {
-    			"id": "2",
-    			"nome": "gabriel",
-    			"email": "gabriel@test.com",
-    			"senha": "pword"
-    		}
+Exemplo:
+
+     {
+        "id": "2",
+        "nome": "gabriel",
+        "email": "gabriel@test.com",
+        "senha": "pword"
+    }
 
 DELETE usuários/{id} – Excluir um usuário
 
@@ -73,7 +75,3 @@ DELETE usuários/{id} – Excluir um usuário
 Na raiz do projeto, executar da seguinte forma:
 
 `mvn spring-boot:run`
-
-## Autor
-
-- **Gabriel Dietrich Guesser** - _Desenvolvedor_ - [gdguesser](https://github.com/gdguesser)
