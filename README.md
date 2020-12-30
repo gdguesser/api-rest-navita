@@ -1,7 +1,3 @@
-## Descrição
-
-API Gerenciamento de Patrimônio Empresarial.
-
 ## EndPoints:
 
 - **Patrimônio:**
@@ -18,9 +14,9 @@ DELETE patrimonios/{id} - Excluir um patrimônio
 
 - **Marcas:**
 
-GET marcas - Obter todas as marcas
-
 GET marcas/{id} - Obter uma marca por ID
+
+GET marcas - Obter todas as marcas
 
 GET marcas/{id}/patrimônios - Obter todos os patrimônios de uma marca
 
@@ -57,6 +53,8 @@ DELETE usuários/{id} – Excluir um usuário
   "username" : "admin",
   "password" : "password"
   }
+
+Tipo do token gerado:
 
 - **Authorization Type:** Bearer Token
 
