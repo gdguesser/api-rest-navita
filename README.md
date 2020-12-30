@@ -1,4 +1,4 @@
-## EndPoints:
+## Endpoints:
 
 - **Patrimônio:**
 
